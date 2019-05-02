@@ -1,0 +1,78 @@
+body {
+    background-color: #eee;
+    color: #000;
+    font-family: HelveticaNeue, Helvetica;
+    margin: 0 auto;
+    width: 840px;
+}
+
+header {
+    padding: 30px;
+}
+
+.app-title {
+    font-size: 35px;
+    font-weight: bold;
+    line-height: 43px;
+}
+
+.app-user {
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.app-display-mode {
+    display: inline;
+    font-size: 15px;
+    margin-left: 30px;
+    
+}
+
+#container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.host-container {
+    background-color: #fff;
+    border-radius: 5px;
+    margin: 0 0 30px 30px;
+    padding: 30px;
+    transition: width 0.5s;
+    width: 315px;
+}
+
+.show-as-list .host-container {
+    width: 840px;
+}
+
+.host-title {
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 19px;
+}
+
+.apps-list {
+    margin: 23px 0 0 0;
+    padding: 0;
+}
+
+.list-item {
+    align-items: center;
+    color: #4A4A4A;
+    display: flex;
+    list-style: none;
+    margin-bottom: 23px;
+}
+
+.app-apdex {
+    font-size: 13px;
+    line-height: 19px;
+    opacity: 0.62;
+}
+
+.app-name {
+    font-size: 16px;
+    line-height: 19px;
+    margin-left: 15px;
+}

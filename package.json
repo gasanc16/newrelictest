@@ -1,0 +1,19 @@
+{
+  "name": "NewRelic",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "dependencies": {},
+  "devDependencies": {
+    "jest": "^24.0.0",
+    "webpack": "^4.29.1",
+    "webpack-cli": "^3.2.1"
+  },
+  "scripts": {
+    "test": "jest",
+    "build": "webpack"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

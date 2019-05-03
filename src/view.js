@@ -95,7 +95,7 @@ let view = {
                 let appVersion = event.currentTarget.getAttribute('data-version');
                 alert('App release version: ' + appVersion);
             };
-        };
+        }
     }
 };
 
